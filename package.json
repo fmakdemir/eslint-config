@@ -1,11 +1,14 @@
 {
-  "name": "eslint-config",
+  "name": "@fmakdemir/eslint-config",
   "version": "1.1.0",
   "description": "Custom Eslint config for VueJS etc.",
   "main": "index.js",
   "repository": "https://fmakdemir@github.com/fmakdemir/eslint-config",
   "author": "fmakdemir@users.noreply.github.com",
   "license": "MIT",
+  "scripts": {
+  	"release-npm": "yarn publish --non-interactive --access public"
+  },
   "peerDependencies": {
     "eslint": "^7.8.1",
     "eslint-plugin-gridsome": "^1.5.0"
